@@ -132,9 +132,6 @@ internal fun SettingsListScope.homeContent(
         page(SettingsDestination.NETWORK)
         page(SettingsDestination.WELLBEING)
         page(SettingsDestination.SECURITY)
-    }
-    group(key = "home.about", header = R.string.settings_header_about) {
-        page(SettingsDestination.ABOUT)
         page(SettingsDestination.DIAGNOSTICS)
         if (BuildConfig.UPDATER_ENABLED) {
             nav(

@@ -55,7 +55,7 @@ internal object DestinationIndex {
         SettingsDestination.entries
             .filter {
                 it != SettingsDestination.HOME && it != SettingsDestination.CUSTOM_THEME_EDIT &&
-                    it != SettingsDestination.PROFILE_EDIT
+                    it != SettingsDestination.PROFILE_EDIT && it != SettingsDestination.ABOUT
             }.map(::entry)
 
     private fun summaryOf(destination: SettingsDestination): Int? =

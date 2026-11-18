@@ -37,7 +37,6 @@ internal object SettingsIndex {
             WellbeingIndex.all +
             SecurityIndex.all +
             WidgetsIndex.all +
-            DiagnosticsIndex.all +
-            AboutIndex.all
+            DiagnosticsIndex.all
     }
 }
